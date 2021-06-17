@@ -100,7 +100,7 @@ class Param extends BetfairSerializable implements ParamInterface
      * @param MarketProjection $marketProjection
      * @return $this
      */
-    public function setMarketProjection(MarketProjection $marketProjection)
+    public function setMarketProjection(array $marketProjection)
     {
         $this->marketProjection = $marketProjection;
         return $this;
