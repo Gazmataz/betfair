@@ -59,7 +59,7 @@ interface ParamInterface
      * @param MatchProjection $matchProjection
      * @return $this
      */
-    public function setMatchProjection(MatchProjection $matchProjection);
+    public function setMatchProjection(array $matchProjection);
 
     /**
      * @param $orderProjection
